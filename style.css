@@ -1,0 +1,482 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    background-color: #333333;
+}
+#root
+
+.contenedor-general{
+    max-width: 829px;
+    max-height: 636px;
+    display: block;
+    align-content: center;
+    justify-content: center;
+}
+
+.contenedor-logo {
+    display: grid;
+    grid-area: logo;
+    justify-items: center;
+    padding: 15px;
+    margin-top: 60px;
+    width: auto;
+    height: 64px;
+}
+
+.containerLogin {
+    width: 300px;
+    height: 330px;
+    background-color: #fff;
+    border-radius: 6px;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px 15px 30px;
+}
+.link {
+    text-decoration: none;
+    background: local;
+    color: #000;
+    
+}
+
+.Entrar {
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 100;
+    line-height: 25.3px;
+    text-size-adjust: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0px 25px;
+}
+
+.form-group {
+    display: flex;
+    width: 278px;
+    height: 34px;
+    padding-left: 20px;
+    background-color: #e8f0fe;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-size-adjust: 100%;
+    border-radius: 2px;
+    margin: 20px 0px 25px;
+    text-decoration-line: none;
+}
+
+/* .btn-docs {
+    background-color: #e8f0fe;
+    border-color: #adb3bd;
+    border: .5px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+
+.btn-checklist {
+    background-color: #e8f0fe;
+    border-color: #adb3bd;
+    border: .5px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 90px;
+    margin-left: 380px;
+} */
+.conten-logo {
+    display: grid;
+    grid-area: logo;
+    justify-items: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 10px;
+    width: auto;
+    height: 64px;
+}
+/* 
+#navega {
+    margin-top: 80px;
+    margin-left: 180px;
+    background: #fff;
+    display: grid;
+    grid-template-areas: 
+    "icondoc" "btndoc"
+    "iconcheck" "btncheck"
+    "iconsalir" "btnsalir";
+    grid-template-columns: 100px 400px;
+    grid-template-rows: 100px 100px 100px;
+    border-radius: 10px;
+
+} */
+/* 
+.icondoc {
+    grid-area: icondoc;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #da3b13;
+}
+.btndoc {
+    grid-area: btndoc;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #e8f0fe;
+}
+.iconcheck {
+    grid-area: iconcheck;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #da3b13;
+}
+.btncheck {
+    grid-area: btncheck;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #e8f0fe;
+}
+.iconsalir {
+    grid-area: iconsalir;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fff;
+}
+.btnsalir {
+    grid-area: btnsalir;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #e8f0fe;
+} */
+.icon {
+    background-color: #fff;
+    color: #000;
+}
+
+#btn1 {
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    margin-top: 75px;
+    border-radius: 50%;
+    border: 2px solid #adb3bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #74777c 0px 2px 4px;
+}
+
+#text1 {
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 200px;
+    height: 70px;
+    background-color: #adb3bd;
+    border-radius: 10px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: #74777c 0px 2px 4px;
+}
+
+#btn2 {
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    margin-top: 120px;
+    border-radius: 50%;
+    border: 2px solid #adb3bd;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #74777c 0px 2px 4px;
+    }
+
+#text2 {
+    margin-top: 125px;
+    margin-left: 20px;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    background-color: #adb3bd;
+    border-radius: 10px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: #74777c 0px 2px 4px;
+}
+
+#btn3 {
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    margin-top: 165px;
+    border-radius: 50%;
+    border: 2px solid #adb3bd;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #74777c 0px 2px 4px;
+    }
+
+#text3 {
+    margin-top: 170px;
+    margin-left: 20px;
+    align-content: center;
+    justify-items: center;
+    width: 200px;
+    height: 70px;
+    background-color: #adb3bd;
+    border-radius: 10px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: #74777c 0px 2px 4px;
+}
+
+#barra {
+    display: grid;
+    grid-template-areas:
+    "btn1 text1"
+    "btn2 text2";
+    grid-template-rows: 75px 75px; 
+    grid-template-columns: 100px 300px;
+    align-content: center;
+    justify-content: center;
+}
+
+.entrar {
+    width: 110px;
+    height: 34px;
+    color: #f5f7fa;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f83600;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 7px 20px;
+    margin: 1px 0px 0px;
+    border-radius: 4px;
+}
+
+.iconentrar {
+    display: flex;
+    padding: 6px;
+    color:#fff;
+    background-color: #f83600;
+}
+
+#bottombar {
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+    
+            
+    .conten-logo {
+        display: grid;
+        grid-area: logo;
+        justify-items: center;
+        align-items: center;
+        padding: 15px;
+        margin-top: 10px;
+        width: auto;
+        height: 48px;
+    }
+
+    .logo {
+        max-height: 50%;
+    }
+    
+    #btn1 {
+        color: #fff;
+        width: 60px;
+        height: 60px;
+        margin-top: 66px;
+        margin-left: 30px;
+        border-radius: 50%;
+        border: 2px solid #adb3bd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: #74777c 0px 2px 4px;
+    }
+    
+    #text1 {
+        margin-top: 68px;
+        width: 200px;
+        height: 60px;
+        background-color: #fff;
+        border-radius: 10px;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: #74777c 0px 2px 4px;
+    }
+    
+    #btn2 {
+        color: #fff;
+        width: 60px;
+        height: 60px;
+        margin-top: 100px;
+        margin-left: 30px;
+        border-radius: 50%;
+        border: 2px solid #adb3bd;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        box-shadow: #74777c 0px 2px 4px;
+        }
+    
+    #text2 {
+        margin-top: 102px;
+        align-content: center;
+        justify-items: center;
+        width: 200px;
+        height: 60px;
+        background-color: #fff;
+        border-radius: 10px;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: #74777c 0px 2px 4px;
+    }
+    
+    #btn3 {
+        color: #fff;
+        width: 60px;
+        height: 60px;
+        margin-top: 134px;
+        margin-left: 30px;
+        border-radius: 50%;
+        border: 2px solid #adb3bd;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        box-shadow: #74777c 0px 2px 4px;
+        display: none;
+        }
+    
+    #text3 {
+        margin-top: 136px;
+        align-content: center;
+        justify-items: center;
+        width: 200px;
+        height: 60px;
+        background-color: #fff;
+        border-radius: 10px;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        box-shadow: #74777c 0px 2px 4px;
+        display: none
+    }
+
+    #bottombar {
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        overflow: hidden;
+        position: fixed;
+        display: grid;
+        grid-template-areas:
+        "text5 text6 text7"
+        "btn5 btn6 btn7";
+        background-color: #fff;
+        grid-template-rows: 15px 30px; 
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+        justify-items: center;
+        font-size: medium;
+        color: #333333;
+               
+    }
+    .text5 {
+        grid-area: text5;
+        display: grid;
+        text-align: center;
+        color: #000;
+        background-color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .btn5 {
+        padding-top: 10px;
+        grid-area: btn5;
+        color: #000;
+        background-color: #fff;
+        justify-items: center;
+        align-items: center;
+    }
+    .text6 {
+        grid-area: text6;
+        color: #000;
+        background-color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .btn6 {
+        grid-area: btn6;
+        padding-top: 10px;
+        color: #000;
+        background-color: #fff;
+        justify-items: center;
+        align-items: center;
+    }
+    .text7 {
+        grid-area: text7;
+        color: #000;
+        background-color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    .btn7 {
+        color: #000;
+        padding-top: 10px;
+        background-color: #fff;
+       
+    }
+
+
+
+}
