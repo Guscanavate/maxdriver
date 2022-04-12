@@ -14,26 +14,48 @@
     justify-content: center;
 }
 
-.contenedor-logo {
-    display: grid;
-    grid-area: logo;
-    justify-items: center;
-    padding: 15px;
+.xanimada {
+    width: 319px;
+    height: 30px;
+    position: relative;
+    background: url(./images/xanimate.png);
     margin-top: 60px;
-    width: auto;
-    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    animation: xanimada 2s steps(5) infinite;
 }
+    @keyframes xanimada{
+        0%{
+            background-position: 0px;
+        }
+        100%{
+            background-position: -1595px;
+        }
+
+    }
+
+    /* .contenedor-logo {
+        display: grid;
+        grid-area: logo;
+        justify-items: center;
+        padding: 0px;
+        margin-top: -120px;
+        width: auto;
+        height: 64px;
+    }     */
 
 .containerLogin {
     width: 240px;
-    height: 330px;
+    height: 300px;
+    margin-top: 40px;
     background-color: #fff;
     border-radius: 6px;
     display: block;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 30px 15px 30px;
+    padding: 60px 30px 15px 30px;
 }
 .link {
     text-decoration: none;
@@ -174,11 +196,11 @@
     height: 80px;
     margin-top: 75px;
     border-radius: 50%;
-    border: 2px solid #adb3bd;
+    /* border: 2px solid #adb3bd; */
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: #74777c 0px 2px 4px;
+    /* box-shadow: #74777c 0px 2px 4px; */
 }
 
 #text1 {
@@ -205,12 +227,12 @@
     height: 80px;
     margin-top: 120px;
     border-radius: 50%;
-    border: 2px solid #adb3bd;
+    /* border: 2px solid #adb3bd; */
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
-    box-shadow: #74777c 0px 2px 4px;
+    /* box-shadow: #74777c 0px 2px 4px; */
     }
 
 #text2 {
@@ -238,12 +260,12 @@
     height: 80px;
     margin-top: 165px;
     border-radius: 50%;
-    border: 2px solid #adb3bd;
+    /* border: 2px solid #adb3bd; */
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
-    box-shadow: #74777c 0px 2px 4px;
+    /* box-shadow: #74777c 0px 2px 4px; */
     }
 
 #text3 {
@@ -477,7 +499,7 @@
         background-color: #fff;
        
     }
-
+    
 
 
 }
